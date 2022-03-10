@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 export const Timer=()=>{
 const [timer, setTimer] = useState(0);
 
-useEffect(()=>{
+useEffect(()=>{   //
     const id=setInterval(()=>{setTimer((prev_value)=>{ //callback
         console.log("here")   
         if(prev_value===19){
